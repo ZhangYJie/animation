@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zaz="http://schemas.android.com/apk/res-auto"
+   android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"   这个是必须的 命名空间的名称自己定-->
+    <com.zaz.app.animationproject.views.MyView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#21cbcb"
+        zaz:attrText="@string/app_name"/>
+    <com.zaz.app.animationproject.views.CustomAttrView
+        zaz:attrCombination="@color/colorAccent"
+        zaz:attrColor="@color/colorPrimaryDark"
+        zaz:attrString="hello"
+        android:background="#fffccc"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <com.zaz.app.animationproject.views.CustomAttrView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="@style/testStyle"
+        android:layout_weight="1"/>
+</LinearLayout>
