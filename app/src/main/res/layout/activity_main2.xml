@@ -12,4 +12,16 @@
         android:layout_height="50dp"
         android:textColor="#000"
         android:text="测试Canvas和Paint"/>
+    <Button
+        android:id="@+id/btn_testInvalidate"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:text="测试Invalidate"/>
+    <Button
+        android:id="@+id/btn_testCoordinate"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:text="测试坐标转换"/>
 </LinearLayout>
