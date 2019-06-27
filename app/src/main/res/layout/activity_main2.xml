@@ -30,4 +30,10 @@
         android:layout_height="50dp"
         android:textColor="#000"
         android:text="测试剪切"/>
+    <Button
+        android:id="@+id/btn_testLayers"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:text="测试各种绘图图层"/>
 </LinearLayout>

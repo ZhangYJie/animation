@@ -14,11 +14,20 @@ public class Main2Activity extends AppCompatActivity {
     Button btn_testInvalidate;
     Button btn_testCoordinate;
     Button btn_testClip;
+    Button btn_testLayers;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        btn_testLayers = (Button)findViewById(R.id.btn_testLayers);
+        btn_testLayers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Main2Activity.this,TestLayerActivity.class);
+                startActivity(intent);
+            }
+        });
         btn_testClip = (Button)findViewById(R.id.btn_testClip);
         btn_testClip.setOnClickListener(new View.OnClickListener() {
                 @Override

@@ -20,7 +20,8 @@
         <activity android:name=".TestCanvasAndPaintActivity" />
         <activity android:name=".TextInvalidateActivity" />
         <activity android:name=".TestCoordinateActivity" />
-        <activity android:name=".TestClipActivity"></activity>
+        <activity android:name=".TestClipActivity" />
+        <activity android:name=".TestLayerActivity"></activity>
     </application>
 
 </manifest>
