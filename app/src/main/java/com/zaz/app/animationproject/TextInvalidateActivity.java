@@ -8,6 +8,9 @@ import com.zaz.app.animationproject.views.TestInvalidateView;
 import java.util.Timer;
 import java.util.TimerTask;
 
+/**
+ * view 刷新
+ */
 public class TextInvalidateActivity extends AppCompatActivity {
 
     TestInvalidateView textInvalView;
